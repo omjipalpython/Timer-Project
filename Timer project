@@ -1,0 +1,8 @@
+import time
+n = int(input("Set Timer in Second : "))
+timer = n 
+while timer > 0 :
+    print("00 :",timer)
+    time.sleep(1)
+    timer -= 1
+print("Times up...!!!")    
